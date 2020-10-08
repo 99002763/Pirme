@@ -1,13 +1,14 @@
-# Name of the project
 PROJECT_NAME = Prime
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = prime.c
+SRC = prime.c\
+functions.c\
+
 # All test source files
-TEST_SRC = prime.c
+TEST_SRC = prime.c\functions.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
