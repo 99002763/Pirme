@@ -1,4 +1,5 @@
 #include "header.h"
+int checkPrimeNumber(int n);
 int main() {
     int n1, n2, i, flag;
     printf("Enter two positive integers: ");
